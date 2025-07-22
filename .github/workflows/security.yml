@@ -22,4 +22,4 @@ jobs:
           pip install bandit
 
       - name: Запустить Bandit (анализ безопасности)
-        run: bandit -r app.py
+        run: bandit app.py
